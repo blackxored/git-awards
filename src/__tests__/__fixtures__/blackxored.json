@@ -1,0 +1,156 @@
+[
+    {
+        "scope": "http://git-awards.com:80",
+        "method": "get",
+        "path": "/api/v0/users/blackxored",
+        "body": "",
+        "status": 200,
+        "response": {
+            "user": {
+                "id": 5217195,
+                "login": "blackxored",
+                "gravatar_url": "https://avatars3.githubusercontent.com/u/133308?v=4",
+                "city": null,
+                "country": null,
+                "rankings": [
+                    {
+                        "language": "ruby",
+                        "repository_count": 44,
+                        "stars_count": 16,
+                        "city_rank": null,
+                        "city_count": 0,
+                        "country_rank": null,
+                        "country_count": 0,
+                        "world_rank": 16465,
+                        "world_count": 317144
+                    },
+                    {
+                        "language": "javascript",
+                        "repository_count": 34,
+                        "stars_count": 13,
+                        "city_rank": null,
+                        "city_count": 5,
+                        "country_rank": null,
+                        "country_count": 5,
+                        "world_rank": 67844,
+                        "world_count": 889848
+                    },
+                    {
+                        "language": "go",
+                        "repository_count": 1,
+                        "stars_count": 1,
+                        "city_rank": null,
+                        "city_count": 0,
+                        "country_rank": null,
+                        "country_count": 0,
+                        "world_rank": 35002,
+                        "world_count": 68779
+                    },
+                    {
+                        "language": "html",
+                        "repository_count": 1,
+                        "stars_count": 0,
+                        "city_rank": null,
+                        "city_count": 2,
+                        "country_rank": null,
+                        "country_count": 2,
+                        "world_rank": 187698,
+                        "world_count": 264426
+                    },
+                    {
+                        "language": "perl",
+                        "repository_count": 1,
+                        "stars_count": 0,
+                        "city_rank": null,
+                        "city_count": 0,
+                        "country_rank": null,
+                        "country_count": 0,
+                        "world_rank": 34480,
+                        "world_count": 42885
+                    },
+                    {
+                        "language": "python",
+                        "repository_count": 1,
+                        "stars_count": 0,
+                        "city_rank": null,
+                        "city_count": 5,
+                        "country_rank": null,
+                        "country_count": 5,
+                        "world_rank": 422264,
+                        "world_count": 511149
+                    },
+                    {
+                        "language": "c#",
+                        "repository_count": 1,
+                        "stars_count": 0,
+                        "city_rank": null,
+                        "city_count": 0,
+                        "country_rank": null,
+                        "country_count": 0,
+                        "world_rank": 158450,
+                        "world_count": 201959
+                    },
+                    {
+                        "language": "shell",
+                        "repository_count": 5,
+                        "stars_count": 0,
+                        "city_rank": null,
+                        "city_count": 2,
+                        "country_rank": null,
+                        "country_count": 2,
+                        "world_rank": 108255,
+                        "world_count": 215011
+                    },
+                    {
+                        "language": "coffeescript",
+                        "repository_count": 1,
+                        "stars_count": 0,
+                        "city_rank": null,
+                        "city_count": 1,
+                        "country_rank": null,
+                        "country_count": 1,
+                        "world_rank": 34253,
+                        "world_count": 44080
+                    },
+                    {
+                        "language": "css",
+                        "repository_count": 3,
+                        "stars_count": 0,
+                        "city_rank": null,
+                        "city_count": 3,
+                        "country_rank": null,
+                        "country_count": 3,
+                        "world_rank": 138483,
+                        "world_count": 417253
+                    }
+                ]
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.4.6 (Ubuntu)",
+            "Date",
+            "Mon, 06 Nov 2017 17:28:01 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "close",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff",
+            "ETag",
+            "W/\"568b64d208af255b6a4ede9664e63d5c\"",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "X-Request-Id",
+            "374ab73e-0fbd-41f3-b91c-6ea2b15cea24",
+            "X-Runtime",
+            "0.100417"
+        ]
+    }
+]

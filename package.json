@@ -1,0 +1,121 @@
+{
+  "name": "git-awards",
+  "version": "0.0.0-development",
+  "description": "JavaScript client for Git Awards (http://git-awards.com), discover you GitHub ranking",
+  "author": "Adrian Perez <adrian@adrianperez.org> (https://adrianperez.codes/)",
+  "module": "es/index.js",
+  "main": "lib/index.js",
+  "engines": {
+    "node": "> 4",
+    "npm": "> 3"
+  },
+  "files": [
+    "es",
+    "dist",
+    "lib"
+  ],
+  "keywords": [
+    "git-awards",
+    "git awards",
+    "github rank",
+    "github ranking",
+    "developer ranking",
+    "developer rank"
+  ],
+  "scripts": {
+    "test": "jest",
+    "start": "webpack",
+    "clean": "rimraf es/* src/* dist/* coverage/*",
+    "prepare": "npm run build",
+    "commit": "commit",
+    "precommit": "lint-staged",
+    "build": "npm run build:es && npm run build:cjs && docs",
+    "build:es": "cross-env BABEL_ENV=es babel src -q -d es",
+    "build:cjs": "cross-env BABEL_ENV=cjs babel src -q -d lib",
+    "docs": "documentation build --document-exported --project-version latest -g -f html src/api.js -o docs/",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "flow": "flow",
+    "lint": "eslint",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
+    "prettier:js": "prettier --write --trailing-comma=all --tab-width 2 --single-quote --parser flow --print-width 80 \"src/**/*.js\"",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "eslint --fix",
+      "prettier --write --trailing-comma all --tab-width 2 --single-quote --parser flow --print-width 80",
+      "git add",
+      "jest --bail --findRelatedTests"
+    ]
+  },
+  "config": {
+    "commitzen": {
+      "path": "@commitlint/prompt"
+    }
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/src/**/*.test.js"
+    ],
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/nock"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!**/node_modules/**",
+      "!**/vendor/**"
+    ],
+    "testEnvironment": "node"
+  },
+  "quokka": {
+    "babel": true
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-runtime": "^6.26.0",
+    "lodash.camelcase": "^4.3.0",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^5.2.5",
+    "@commitlint/config-conventional": "^5.2.3",
+    "all-contributors-cli": "^4.6.0",
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.0.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-jest": "21.0.0",
+    "commitizen": "^2.9.6",
+    "cross-env": "^2.0.1",
+    "documentation": "^5.3.5",
+    "isomorphic-fetch": "^2.2.1",
+    "nock": "^9.0.28",
+    "serverless": "^1.24.1",
+    "serverless-webpack": "^4.1.0",
+    "webpack": "^3.10.0",
+    "webpack-node-externals": "^1.6.0",
+    "rimraf": "~2.3.2",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.4.0",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^21.0.0",
+    "eslint-plugin-prettier": "^2.2.0",
+    "eslint-plugin-flowtype": "^2.40.1",
+    "flow-bin": "^0.58.0",
+    "husky": "^0.14.3",
+    "jest": "^21.2.1",
+    "lint-staged": "^4.1.3",
+    "prettier": "^1.8.1",
+    "semantic-release": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blackxored/git-awards.git"
+  }
+}
