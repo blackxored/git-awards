@@ -29,7 +29,7 @@
     "prepare": "npm run build",
     "commit": "commit",
     "precommit": "lint-staged",
-    "build": "npm run build:es && npm run build:cjs && docs",
+    "build": "npm run build:es && npm run build:cjs && npm run docs",
     "build:es": "cross-env BABEL_ENV=es babel src -q -d es",
     "build:cjs": "cross-env BABEL_ENV=cjs babel src -q -d lib",
     "docs": "documentation build --document-exported --project-version latest -g -f html src/api.js -o docs/",
