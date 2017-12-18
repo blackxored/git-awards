@@ -18,6 +18,15 @@
         "infra",
         "test"
       ]
+    },
+    {
+      "login": "vdaubry",
+      "name": "vincent daubry",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/498298?v=4",
+      "profile": "http://www.youboox.fr",
+      "contributions": [
+        "infra"
+      ]
     }
   ]
 }

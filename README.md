@@ -11,7 +11,7 @@
 [![AirBnB style guide][airbnb-style-badge]][airbnb-style]
 
 [![MIT License][license-badge]][LICENSE]
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 [![PRs Welcome][prs-badge]][prs]
 [![Commitizen friendly][commitizen-badge]][commitizen]
 [![Code of Conduct][coc-badge]][coc]
@@ -116,8 +116,8 @@ Thanks goes to these people ([emoji key][emojis]):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/133308?v=4" width="100px;"/><br /><sub><b>Adrian Perez</b></sub>](https://adrianperez.codes)<br />[💻](https://github.com/blackxored/git-awards/commits?author=blackxored "Code") [📖](https://github.com/blackxored/git-awards/commits?author=blackxored "Documentation") [🚇](#infra-blackxored "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/blackxored/git-awards/commits?author=blackxored "Tests") |
-| :---: |
+| [<img src="https://avatars3.githubusercontent.com/u/133308?v=4" width="100px;"/><br /><sub><b>Adrian Perez</b></sub>](https://adrianperez.codes)<br />[💻](https://github.com/blackxored/git-awards/commits?author=blackxored "Code") [📖](https://github.com/blackxored/git-awards/commits?author=blackxored "Documentation") [🚇](#infra-blackxored "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/blackxored/git-awards/commits?author=blackxored "Tests") | [<img src="https://avatars3.githubusercontent.com/u/498298?v=4" width="100px;"/><br /><sub><b>vincent daubry</b></sub>](http://www.youboox.fr)<br />[🚇](#infra-vdaubry "Infrastructure (Hosting, Build-Tools, etc)") |
+| :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors][all-contributors] specification.
