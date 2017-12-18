@@ -162,4 +162,4 @@ Contributions of any kind welcome!
 [semver]: http://semver.org/
 [releases]: https://github.com/blackxored/git-awards/releases
 [commit-convention]: https://www.npmjs.com/package/@commitlint/config-conventional
-[documentation]: 'TODO'
+[documentation]: https://blackxored.github.io/git-awards
