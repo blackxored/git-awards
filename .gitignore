@@ -92,3 +92,4 @@ $RECYCLE.BIN/
 .serverless
 serverless.yml
 handler.js
+.webpack
