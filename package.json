@@ -92,7 +92,7 @@
     "babel-jest": "23.0.1",
     "commitizen": "^2.9.6",
     "cross-env": "^5.1.4",
-    "documentation": "^7.0.0",
+    "documentation": "^8.1.2",
     "isomorphic-fetch": "^2.2.1",
     "nock": "^9.0.28",
     "serverless": "^1.24.1",
