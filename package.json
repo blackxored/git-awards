@@ -94,7 +94,7 @@
     "cross-env": "^5.1.4",
     "documentation": "^7.0.0",
     "isomorphic-fetch": "^2.2.1",
-    "nock": "^9.0.28",
+    "nock": "^10.0.2",
     "serverless": "^1.24.1",
     "serverless-webpack": "^5.1.1",
     "webpack": "^4.6.0",
