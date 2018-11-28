@@ -76,7 +76,7 @@
     "axios": "^0.18.0",
     "babel-runtime": "^6.26.0",
     "lodash.camelcase": "^4.3.0",
-    "ramda": "^0.25.0"
+    "ramda": "^0.26.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^6.1.3",
