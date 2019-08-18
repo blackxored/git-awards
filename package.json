@@ -100,7 +100,7 @@
     "webpack": "^4.6.0",
     "webpack-node-externals": "^1.6.0",
     "rimraf": "~2.6.2",
-    "eslint": "^4.6.1",
+    "eslint": "^6.2.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.4.0",
     "eslint-plugin-fp": "^2.3.0",
